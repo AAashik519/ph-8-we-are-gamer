@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+/* common css */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-black-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-desc{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+     
+}
+.section-sub-desc{
+    color: #534C64;
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 30px; 
+ 
+    
+}
+ 
+.btn-primary{
+    padding: 15px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+ 
+}
+.secondary{
+    background: #4EC5F7;
+    margin-left: 25px;
+}
+.colorfill-title{
+    font-size: 48px; 
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* navbar styles */
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img{
+    width: 86.041px;
+    height: 40px;
+}
+.logo h5{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+   
+}
+.navbar-items ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px 20px;
+}
+.navbar-items ul li a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.follow{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 14px;
+    gap: 10px;
+}
+
+
+/* banner section style */
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.banner-text{
+    max-width: 50%;
+}
+    
+.banner-img{
+    height: 446px;
+    max-width: 50%;
+}
+ 
+.banner-img img{
+    height: 446px;
+}
+
+.goat-title{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text p{
+    margin-top: 15px;
+}
+
+/* gamer section */
+.we-are-gammer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-section{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 40px;
+}
+  .gammer-img{
+    max-width: 50%;
+    height: 489px;
+  }
+  .gammer-img img{
+    max-width: 100%;
+    height: 489px;
+  }
+  .gamer-content{
+    max-width: 50%;
+    text-align: end;
+  }
+  .gammer-sub-desc{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    
+  }
+  .gammer-motiv{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+   
+  }
+
+
+  /* online game section */
+  .online-game-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .online-game h5,p{
+    text-align: center;
+  }
+  .game-card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .game-card{
+    max-width: 100%;
+  }
+  .game-card img{
+    max-width: 100%;
+  }
