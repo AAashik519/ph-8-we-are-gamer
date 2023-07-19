@@ -513,6 +513,10 @@ kjhjdsfbmn.sf bdkjgfjsks */
         display: flex;
         flex-direction: column;
       }
+      
+      .hide-text{  
+       top: 36%;
+     }
 
       /* play game */
        .play-game{
@@ -601,6 +605,7 @@ kjhjdsfbmn.sf bdkjgfjsks */
   }
   .banner-text ,.goat-title{
     text-align: left;
+    font-size: 60px;
   }
   .banner-content{
     display: flex;
