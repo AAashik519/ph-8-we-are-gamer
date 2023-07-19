@@ -208,14 +208,16 @@ nav{
   }
   .game-card{
     max-width: 100%;
+  
     position: relative;
     
     
   }
-
   .game-card img{
     transition: all .3s ease-in 0s;
     max-width: 100%;
+     
+    border-radius: 12px;
   }
   .hide-text{
      display: none;
@@ -243,13 +245,14 @@ nav{
   }
   .game-card:hover .hide-text{
     display: block;
-    
+  
   }
+  /* .hide-text{
+    filter: brightness(50%);
+  } */
   .game-card img:hover {
-    display: block;
-    background-color:#000;
-    opacity:0.4;
-   
+    
+    filter: brightness(50%);
   }
    
   /* play game */
@@ -326,6 +329,7 @@ nav{
     gap: 10px;
     padding: 0 5px;
     
+    
   }
   .game-img img{
     max-width: 60px;
@@ -343,6 +347,7 @@ nav{
     border-radius: 50px;
     background: #FFF;
     border: none;
+    outline: none;
     transition:   .3s ease-out  ;
     margin-top: 20px;
   }
@@ -354,10 +359,22 @@ nav{
     padding: 6px 6px;
      
   }
-.type-of-game-content:hover{
-    border: 1px solid  #FF42A5 !important; 
-     
-}
+  .game-img h6{
+    transition:  all .5s ease-out 0s;
+  }
+  .game-img{
+    transition: border .5s ease-out 0s;
+  }
+  
+  .game-img:hover {
+    border: 1px solid red;
+    border-radius: 50px;
+  }
+  .game-img:hover h6{
+  color: red;
+    
+  }
+ 
 footer{
     background: #0B0223;
     padding: 100px 0;
@@ -401,7 +418,10 @@ footer{
 
 
 
-
+/* fuhgiufghi
+sdfhgjfhgfsd
+sdfkjhgfiugfuj 
+kjhjdsfbmn.sf bdkjgfjsks */
 
 
 
